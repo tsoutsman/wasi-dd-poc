@@ -1,0 +1,10 @@
+[package]
+name = "driver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+driver-common = { path = "../driver-common" }
+
+[lib]
+crate-type = ["cdylib", "staticlib"]

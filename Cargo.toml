@@ -1,0 +1,2 @@
+[workspace]
+members = ["dd-manager", "driver", "driver-common"]
