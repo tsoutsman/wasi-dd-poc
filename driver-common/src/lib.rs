@@ -2,6 +2,7 @@
 
 mod ffi {
     extern "C" {
+        // TODO: Is this sound? The type signature in dd-manager is fn(). (no -> !)
         pub fn handle_panic() -> !;
         pub fn register_handler(num: u32, func: extern "C" fn());
     }
